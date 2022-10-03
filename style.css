@@ -1,0 +1,118 @@
+body {
+    background: rgb(61, 35, 147);
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    background-color: rgb(191, 145, 39);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    padding-left: 2rem;
+}
+
+.pages {
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    float: right;
+    display: block;
+    padding-right: 2rem;
+}
+
+.main {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.top-statement {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    color: #aacfa1;
+}
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    color: #aacfa1;
+}
+
+.description {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    color: #aacfa1;
+}
+
+.quote {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    padding-top: 5rem;
+    align-content: center;
+    color: #bda6ae;
+}
+
+.github {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    background-color: beige;
+}
+
+.activities {
+    color: antiquewhite;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.activity-image {
+    max-width: 20%;
+    height: 20%;
+}
+
+.activity-description {
+    font-size: 1.3rem;
+}
+
+.projects {
+    color: antiquewhite;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.project-image {
+    max-width: 20%;
+    height: 20%;
+}
+
+.project-description {
+    font-size: 1.3rem;
+}
